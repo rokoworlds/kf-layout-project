@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <heade class="header">
+    <header class="header">
         <a href="/" class="header-logo">
             <img 
                 src="./images/logo.png" 
@@ -49,12 +49,43 @@
         </nav>
         <div class="header-actions">
             <button class="header-book-button button">Book now</button>
-            <button class="header-burger-button">
+            <button class="header-burger-button" title="Open menu">
+                <span class="visually-hidden">Open menu</span>
                 <span class="header-burger-button-line"></span>
                 <span class="header-burger-button-line"></span>
                 <span class="header-burger-button-line"></span>
             </button>
         </div>
-    </heade>
+    </header>
+    <main>
+        <h1 class="visually-hidden">Kropp Fitness Club</h1>
+        <section class="banner">
+            <h2 class="visually-hidden">Upcoming events</h2>
+            <div class="banner-body">
+                <div class="banner-info">
+                    New event<br/>
+                    coming up / <time datetime="06-07">june 7</time>&nbsp;-&nbsp;<time datetime="06-13">13</time> 
+                </div>
+                <h3 class="banner-title">Crossfit</h3>
+            </div>
+            <div class="banner-pagination">
+                <ul class="banner-pagination-list">
+                    <li class="banner-pagination-item">
+                        <button class="banner-pagination-button">
+                        </button>
+                    </li>
+                    <li class="banner-pagination-item">
+                        <button class="banner-pagination-button">
+                        </button>
+                    </li>
+                    <li class="banner-pagination-item">
+                        <button class="banner-pagination-button is-current">
+                        </button>
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+    </main>
 </body>
 </html>
